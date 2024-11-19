@@ -4,11 +4,9 @@
 
 ## Problem Statement
 
-This dashboard helps the airlines understand their customers better. It helps the airlines know if their customers are satisfied with their services. Through different ratings, they get to know their improvement area, & thus they can improve their services by identifying these area. It also lets them know the average delay & departure time, thus since by using this dashboard they have identified this problem, they can further work on factors responsible for these unwanted delays.
+This dashboard helps the company HR executive understand their employees attendance pattern. It helps the HR to plan for various events such as in-house team meetings, company lunch, workshops at times when all/most employees will benefit from them. This also lets management make decisions to utilize the office workspace to the maximum by allotting different teams the workspace at times when it is free because the other teams are having WFH.
 
-Since, number of neutral/dissatisfied customers (almost 57 %) are more than satisfied customers (around 43 %), thus in all they must work on improving their services. 
-
-Also since average delay in arrival & departure both is 15 minutes, thus they must try to reduce it.
+The dashboard gives insights about the annual trend of attendances which can then be correlate to the different festivals, major holidays and even seasons where flus and certain seasonal illnesses tend to aggravate; all this leads to HR being able to plan and call upon special needs like health bootcamps to counter said illnesses.
 
 
 ### Steps followed 
