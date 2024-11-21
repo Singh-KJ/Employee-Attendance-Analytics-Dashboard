@@ -11,13 +11,13 @@ The dashboard gives insights about the annual trend of attendances which can the
 
 ### Steps followed 
 
-- Step 1 : Load data into Power BI Desktop, dataset is a csv file.
+- Step 1 : Load data into Power BI Desktop, dataset is a .xlsx file.
 - Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
 - Step 3 : Also since by default, profile will be opened only for 1000 rows so you need to select "column profiling based on entire dataset".
-- Step 4 : It was observed that in none of the columns errors & empty values were present except column named "Arrival Delay".
-- Step 5 : For calculating average delay time, null values were not taken into account as only less than 1% values are null in this column(i.e column named "Arrival Delay") 
-- Step 6 : In the report view, under the view tab, theme was selected.
-- Step 7 : Since the data contains various ratings, thus in order to represent ratings, a new visual was added using the three ellipses in the visualizations pane in report view. 
+- Step 4 : It was observed that the data was denormalized with dates as columns and the and employee in the column "Name".
+- Step 5 : For Moving any further a normalization of the data is required, in order to do so we unpivot the colums using "unpivot other colums option"
+- Step 6 : Change the data type of the new attribute created to 'date'.
+- Step 7 : 
 - Step 8 : Visual filters (Slicers) were added for four fields named "Class", "Customer Type", "Gate Location" & "Type of travel".
 - Step 9 : Two card visuals were added to the canvas, one representing average departure delay in minutes & other representing average arrival delay in minutes.
            Using visual level filter from the filters pane, basic filtering was used & null values were unselected for consideration into average calculation.
